@@ -79,7 +79,7 @@ public class XOGame {
     public static void humanTurn() {
         int x, y;
         do {
-            System.out.println("Введите координты метки: X,Y");
+            System.out.println("Введите координаты метки: X,Y");
             x = sc.nextInt() - 1;
             y = sc.nextInt() - 1;
         } while (!isCellValid(y, x));
