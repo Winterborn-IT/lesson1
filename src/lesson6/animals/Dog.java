@@ -10,6 +10,7 @@ public class Dog extends Animal {
         countDogs++;
     }
 
+    @Override
     public void run(int barrierLength) {
         if (barrierLength < DOG_RUN_DISTANCE) {
             System.out.printf("%s пробежал %d м.\n", name, barrierLength);
@@ -18,6 +19,7 @@ public class Dog extends Animal {
         }
     }
 
+    @Override
     public void swim(int barrierLength) {
         if (barrierLength < DOG_SWIM_DISTANCE) {
             System.out.printf("%s проплыл %d м.\n", name, barrierLength);
